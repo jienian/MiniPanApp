@@ -1,4 +1,4 @@
-package com.nim.carsspeed;
+package com.nim.carsspeed.view;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -6,6 +6,8 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.nim.carsspeed.R;
 
 public class CustomSpeedometerView extends View {
     private Bitmap background;

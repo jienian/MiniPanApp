@@ -12,13 +12,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.nim.carsspeed.CustomSpeedometerView
+        <com.nim.carsspeed.view.CustomSpeedometerView
             android:id="@+id/speedometer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true" />
 
-        <com.nim.carsspeed.SpeedDigitView
+        <com.nim.carsspeed.view.SpeedDigitView
             android:id="@+id/digit_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

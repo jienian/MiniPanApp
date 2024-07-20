@@ -1,4 +1,4 @@
-package com.nim.carsspeed;
+package com.nim.carsspeed.view;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -15,9 +15,9 @@ public class SpeedDigitView extends View {
 
     public SpeedDigitView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        initDigit(context);
+        initDigit();
     }
-    private void initDigit(Context context) {
+    private void initDigit() {
         @SuppressLint("DiscouragedApi") int resourceId = getResources().getIdentifier("digit_0", "drawable", getContext().getPackageName());
         currentDigit = BitmapFactory.decodeResource(getResources(), resourceId);
         invalidate();

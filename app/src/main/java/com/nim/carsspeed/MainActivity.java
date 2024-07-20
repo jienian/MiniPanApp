@@ -4,6 +4,9 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.nim.carsspeed.view.CustomSpeedometerView;
+import com.nim.carsspeed.view.SpeedDigitView;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
